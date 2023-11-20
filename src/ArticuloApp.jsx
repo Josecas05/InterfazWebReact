@@ -12,7 +12,7 @@ export const ArticuloApp = () => {
       <Routes>
         <Route path="/" element = {<ListArticle></ListArticle>}></Route>
         <Route path="/agregar" element={<AddArticle></AddArticle>}></Route>
-        <Route path="/fecha" element ={<DateArticle></DateArticle>}></Route>
+        <Route path="/fechas" element ={<DateArticle></DateArticle>}></Route>
         <Route path="/*" element ={<Navigate to='/'/>}></Route>
       </Routes>
       </div>
