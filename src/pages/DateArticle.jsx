@@ -43,23 +43,25 @@ export const DateArticle = () => {
   return (
     <>
       <h1>Articulos</h1>
-      <div className="mb-3">
-        <label className="form-label"><h4>Fecha de inicio:</h4></label>
-        <input
-          type="date"
-          value={startDate}
-          onChange={(e) => setStartDate(e.target.value)}
-          className="form-control"
-        />
-      </div>
-      <div className="mb-3">
-        <label className="form-label"><h4>Fecha de fin:</h4></label>
-        <input
-          type="date"
-          value={endDate}
-          onChange={(e) => setEndDate(e.target.value)}
-          className="form-control"
-        />
+      <div className="mb-3 d-flex">
+        <div className="me-3">
+          <label className="form-label"><h4>Fecha de inicio:</h4></label>
+          <input
+            type="date"
+            value={startDate}
+            onChange={(e) => setStartDate(e.target.value)}
+            className="form-control"
+          />
+        </div>
+        <div>
+          <label className="form-label"><h4>Fecha de fin:</h4></label>
+          <input
+            type="date"
+            value={endDate}
+            onChange={(e) => setEndDate(e.target.value)}
+            className="form-control"
+          />
+        </div>
       </div>
       <hr />
       {articles.length > 0 ? (
