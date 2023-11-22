@@ -1,0 +1,8 @@
+.add-article-container {
+  position: absolute;
+  left: 0;
+  width: 80%; /* Puedes ajustar este valor según tus necesidades */
+  height: 100vh; /* Esto hará que el contenedor ocupe toda la altura de la pantalla */
+  background-color: #f0f0f0; /* Puedes ajustar el color de fondo según tus preferencias */
+  padding: 16px; /* Puedes ajustar el espacio interno según tus necesidades */
+}
