@@ -1,8 +1,26 @@
-.add-article-container {
-  position: absolute;
-  left: 0;
-  width: 80%; /* Puedes ajustar este valor según tus necesidades */
-  height: 100vh; /* Esto hará que el contenedor ocupe toda la altura de la pantalla */
-  background-color: #f0f0f0; /* Puedes ajustar el color de fondo según tus preferencias */
-  padding: 16px; /* Puedes ajustar el espacio interno según tus necesidades */
+/* styles.css */
+.article-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
+.article-containers {
+  display: flex;
+  gap: 20px; /* Espaciado entre los contenedores */
+  width: 90%; /* Ajusta el ancho según tus necesidades */
+  max-width: 1200px; /* Ajusta el ancho máximo según tus necesidades */
+}
+
+.add-article-container {
+  flex: 1; /* El primer contenedor ocupa todo el espacio disponible */
+  margin-right: 10px; /* Ajusta el margen derecho según tus necesidades */
+}
+
+/* Ajusta los estilos según tus necesidades */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Otros estilos para la tabla si es necesario */
